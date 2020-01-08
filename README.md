@@ -3,7 +3,7 @@
  - 闫勃 / 男 / 1992 
  - 工作年限：5年
  - 技术博客：https://saltbo.cn
- - Github：http://github.com/saltbo
+ - Github：https://github.com/saltbo
  - 期望职位：研发工程师、架构师
  - 期望城市：北京
 
