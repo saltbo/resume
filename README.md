@@ -10,31 +10,56 @@
 ---
 # 联系方式
 
-- QQ:  6599422
-- 手机：185****4536
+- 手机/微信：`echo 'MTg1MTkzODQ1MzYK' | base64 --decode`
 - Email：saltbo@foxmail.com
 
 ---
 # 技能清单
 
 - 编程语言：Golang/PHP/Js/C/C++/Java
-- Web框架：Gin/Geo/ThinkPHP/Yaf/Vue/iView
-- 数据库相关：Mongo/MySQL/SQLite
+- Web框架：Gin/Geo/Tp/Yaf/Vue/iView/Element
+- 存储相关：Mongo/MySQL/SQLite/Redis/Etcd/Consul
+- 网络协议：HTTP/HTTPS/WebSocket/Vmess/Gossip/Raft
 - 版本管理、文档和自动化部署工具：Svn/Git/Docsify/Composer
-- 云和开放平台：阿里云/谷歌云/微信小程序/微信开放平台
+- CloudNative：APIGateway/Docker/K8S/Istio/Envoy
+- CloudPlatform：阿里云/GoogleCloud/AWSCloud
 
 ---
 # 工作经历
 
-## 得到（北京）信息科技有限公司 （ 2015年6月 ~ 至今 ）
+## 得到APP - Golang高级研发工程师(2017.09 - 至今)
 
-### API网关 
-我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。
+### 微服务API网关
 
-### 任务调度系统
-我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。
+用于支持公司内部微服务架构的API网关。初期基于EaseGateway进行二次开发，后由于公司业务需要进行自研。自研版本的API网关基于ETCD实现集群配置管理，在设计上支持水平无限扩展。
 
-### 电商后端
+我的成就： 
+- 独立负责异步任务调度系统的设计与研发
+- 从Swoole到Go; 从Redis到RabbitMQ再到Kafka。
+
+项目设计：https://blog.luojilab.com/2019/08/14/dd-technical/ddgw/
+
+## 罗辑思维 - PHP研发工程师(2015.06 - 2017.08)
+
+### 异步任务调度系统
+
+初期用于支持商城中订单30分钟自动关闭，后逐步完善为一个完整的异步任务调度系统，为公司内部所有项目提供异步调度能力。
+
+我的成就： 
+- 独立负责异步任务调度系统的设计与研发
+- 从Swoole到Go; 从Redis到RabbitMQ再到Kafka。
+
+相关文章：
+- [基于Swoole和Redis实现的并发队列处理系统](https://www.jianshu.com/p/54ffd360454f)
+- [基于RabbitMQ和Swoole实现的一个完整的异步任务系统](https://www.jianshu.com/p/91873a500296)
+
+### 生活作风电商平台
+
+一个对标有赞的微信生态电商平台，后由于得到APP的诞生，公司将该电商平台的定位调整为企业内部自营商城，支持微信电商的同时为得到APP提供电商能力。
+
+我的成就： 
+- 负责电商底层中商品模块的研发
+- 负责电商管理后台的设计与研发
 
 
 ---
@@ -43,8 +68,8 @@
 ## 开源项目
  - [Bytom-Chrome-Extension](https://github.com/Bytom-Community/Bytom-Chrome-Extension):  比原链钱包（Chrome浏览器插件版）
  - [Gofbot](https://github.com/saltbo/gofbot)：一个通用的请求转发机器人
- - [UPToc](http://github.com/saltbo/uptoc)：一个用于将文件部署到云存储的cli工具
  - [ZPan](http://github.com/saltbo/zpan)：一个基于云存储的私有云网盘系统
+ - [UPToc](http://github.com/saltbo/uptoc)：一个用于将文件部署到云存储的cli工具
 
 ## 技术文章
 - [Uptoc - 将你的Hugo静态博客部署到阿里云OSS上](http://saltbo.cn/post/hugo-uptoc-oss.html)
