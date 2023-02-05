@@ -13,7 +13,7 @@
 ## 个人简介
 
 - 多年云原生领域从业经验，Kubernetes 和 Istio 开源社区成员。
-- 拥有多种基架平台的开发经验，包括不限于容器平台、任务调度平台、API网关平台、事件平台、FaaS 平台、ServiceMesh 平台等。
+- 拥有多种基架平台的开发经验，主导设计并实现了容器平台、任务调度平台、API 网关平台、事件平台、FaaS 平台、ServiceMesh 平台等。
 - 开源爱好者，熟悉开源社区，贡献过的项目包括不限于 k8s、istio、envoy、fission、lima、minikube 等。
 - 具备高并发应用开发经验，在得到作为 API 网关负责人期间多年为《罗振宇跨年演讲》提供技术支撑。
 - 经历过从传统单体架构转型微服务架构过程，熟悉微服务架构体系及相关中间件技术，熟悉服务治理相关内容。
@@ -23,12 +23,13 @@
 
 ## 技能清单
 
-- 编程语言：Go/PHP/Js/Java/C/C#/C++
-- Web 框架：grpc/gin/geo/yaf/tp/vue/iView/element/vuetify
-- 存储相关：Mongo/MySQL/SQLite/Redis/Etcd/Consul
-- 网络协议：HTTP/HTTPS/WebSocket/Vmess/Gossip/Raft
-- CloudNative：APIGateway/Docker/K8S/Istio/Envoy/Serverless
-- CloudPlatform：阿里云/百度云/GoogleCloud/AWSCloud/Azure
+- 精通 API 网关、内网穿透等代理相关技术
+- 精通 K8S Operator 的设计与研发
+- 熟悉 OAM 和 Kubevela，进行过基于 Kubevela 的扩展开发工作
+- 熟悉 Knative、Fission、OpenFunction 等 Serverless 框架
+- 了解 Tekton、Argo Workflow 等工作流引擎
+- 了解 FluxCD、ArgoCD 等 GitOps 框架
+- 了解 Prometheus、OpenTelemetry、Loki 等可观测性组件
 
 ---
 
@@ -57,8 +58,8 @@
 
 #### API 网关系统
 
-1. 负责公司内部自研 API 网关的设计与研发，
-2. 压测 5x8C16G 服务器最高可以达到 21 万 QPS，高水平的支持了包括《罗振宇跨年演讲》在内的公司各种大型活动
+1. 负责公司内部自研 API 网关的设计与研发，作为整个公司级别的线上流量入口承担了最大的流量
+2. 压测 5x8C16G 服务器最高可以达到 25 万 QPS，高水平的支持了包括《罗振宇跨年演讲》在内的公司各种大型活动
 
 #### 罗辑思维电商平台
 
