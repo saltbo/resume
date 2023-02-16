@@ -23,7 +23,7 @@
 
 ## 技能清单
 
-- 精通 API 网关、内网穿透等代理相关技术
+- 精通 API 网关、内网穿透等网络代理相关技术
 - 精通 K8S Operator 的设计与研发
 - 熟悉 OAM 和 Kubevela，进行过基于 Kubevela 的扩展开发工作
 - 熟悉 Knative、Fission、OpenFunction 等 Serverless 框架
