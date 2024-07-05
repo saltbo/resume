@@ -1,0 +1,170 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jasper Van",
+    "label": "Senior Software Engineer",
+    "image": "",
+    "email": "rdsaltbo@gmail.com",
+    "phone": "(740)562-2838 ",
+    "url": "https://saltbo.cn",
+    "summary": "Jasper Van from China. He's an engineer focused on the cloud-native field. He has been working in computer programming for over 10 years, with the last 5 years in the cloud-native field. He's familiar with core technologies in the cloud-native domain, such as K8s, Istio, Argo, Knative, etc.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "rdsaltbo",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "saltbo",
+        "url": "https://github.com/saltbo"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Li Auto Inc.",
+      "location": "Beijing, CN",
+      "description": "It's a leader in China's new energy vehicle market.",
+      "position": "Senior Software Engineer",
+      "url": "https://ir.lixiang.com",
+      "startDate": "2021-11-25",
+      "highlights": [
+        "Developed an event platform using Knative Eventing to facilitate the adoption of Event-Driven Architecture across the organization.",
+        "Created a FaaS platform based on Fission to streamline development processes with high efficiency and ease of use.",
+        "Developed a Service Mesh platform using Istio to provide consistent service governance across various programming languages."
+      ]
+    },
+    {
+      "name": "Beijing logicreation Information & Technology Co., Ltd",
+      "location": "Beijing, CN",
+      "description": "It's a content provider that offers knowledge of different subjects.",
+      "position": "Senior Software Engineer",
+      "url": "https://www.igetget.com",
+      "startDate": "2015-06-08",
+      "endDate": "2021-11-20",
+      "highlights": [
+        "Developed internal microservice component controllers and CICD systems based on K8S and Tekton, enhancing platform stability and application build reliability.",
+        "Designed and developed the company’s internal API gateway, achieving a stress test performance of up to 250K QPS, successfully supporting the traffic demands of various large-scale company events.",
+        "Participated in the design and development of the company’s e-commerce system and several middleware projects, driving the transition from monolithic to microservices architecture, and completed the migration to a self-developed e-commerce platform for Luo Ji Si Wei."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "endDate": "2015-06-01",
+      "startDate": "2013-09-01",
+      "area": "Computer Information Management (incomplete)",
+      "studyType": "Bachelors",
+      "institution": "The University of Tianjin"
+    },
+    {
+      "institution": "Tianjin Binhai Vocational School",
+      "url": "https://www.ou.edu/",
+      "area": "Electronic Information Engineering",
+      "studyType": "College",
+      "startDate": "2012-09-01",
+      "endDate": "2015-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "CloudNative",
+      "level": "Master",
+      "keywords": [
+        "K8s / Istio / Envoy",
+        "ArgoCD / FluxCD",
+        "ArgoWorkflow / Tekton ",
+        "Kubevela / OAM ",
+        "Knative / Fission",
+        "OpenTelemetry / Loki"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML / JSX",
+        "Javascript / Typescript",
+        "Vue / React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Kiae",
+      "description": "An open-source cloud platform completely based on Kubernetes and Istio. alternative to Heroku / Vercel / Railway",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "Golang",
+        "Self hosting",
+        "Cloud driver"
+      ],
+      "startDate": "2016-08-24",
+      "url": "https://kiae.dev",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    },
+    {
+      "name": "ZPan",
+      "description": "A self-hosted cloud disk base on the cloud storage",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "Golang",
+        "Self hosting",
+        "Cloud driver"
+      ],
+      "startDate": "2016-08-24",
+      "url": "https://zpan.space",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
