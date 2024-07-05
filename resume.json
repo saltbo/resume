@@ -4,7 +4,7 @@
     "name": "Jasper Van",
     "label": "Senior Software Engineer",
     "image": "",
-    "email": "rdsaltbo@gmail.com",
+    "email": "jaspervandev@gmail.com",
     "phone": "(740)562-2838 ",
     "url": "https://saltbo.cn",
     "summary": "Jasper Van from China. He's an engineer focused on the cloud-native field. He has been working in computer programming for over 10 years, with the last 5 years in the cloud-native field. He's familiar with core technologies in the cloud-native domain, such as K8s, Istio, Argo, Knative, etc.",
@@ -18,13 +18,13 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "rdsaltbo",
-        "url": ""
+        "username": "jaspervandev",
+        "url": "https://twitter.com/jaspervandev"
       },
       {
         "network": "Github",
-        "username": "saltbo",
-        "url": "https://github.com/saltbo"
+        "username": "jaspervandev",
+        "url": "https://github.com/jaspervandev"
       }
     ]
   },
