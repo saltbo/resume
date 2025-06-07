@@ -4,27 +4,24 @@
     "name": "Jasper Van",
     "label": "Senior Software Engineer",
     "image": "",
-    "email": "jaspervandev@gmail.com",
-    "phone": "(740)562-2838 ",
-    "url": "https://saltbo.cn",
-    "summary": "Jasper Van from China. He's an engineer focused on the cloud-native field. He has been working in computer programming for over 10 years, with the last 5 years in the cloud-native field. He's familiar with core technologies in the cloud-native domain, such as K8s, Istio, Argo, Knative, etc.",
+    "email": "rdsaltbo@gmail.com",
+    "phone": "(740)562-2838",
+    "summary": "Jasper is an experienced engineer specializing in the cloud-native field. With over 10 years in computer programming and the past 5 years dedicated specifically to cloud-native technologies, he possesses deep expertise in this area. Jasper is proficient with core technologies in the cloud-native domain, including Kubernetes (K8s), Istio, Argo, and Knative, among others.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Windsor",
+      "countryCode": "CA",
+      "region": "ON"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "jaspervandev",
-        "url": "https://twitter.com/jaspervandev"
+        "username": "rdsaltbo",
+        "url": "https://twitter.com/rdsaltbo"
       },
       {
         "network": "Github",
-        "username": "jaspervandev",
-        "url": "https://github.com/jaspervandev"
+        "username": "saltbo",
+        "url": "https://github.com/saltbo"
       }
     ]
   },
@@ -32,28 +29,27 @@
     {
       "name": "Li Auto Inc.",
       "location": "Beijing, CN",
-      "description": "It's a leader in China's new energy vehicle market.",
       "position": "Senior Software Engineer",
       "url": "https://ir.lixiang.com",
       "startDate": "2021-11-25",
+      "summary": "Experienced in building and optimizing cloud-native platforms to enhance efficiency, manageability, and governance across multiple clusters and services. Proficient in implementing Continuous Delivery, Function as a Service, and Service Mesh platforms.",
       "highlights": [
-        "Developed an event platform using Knative Eventing to facilitate the adoption of Event-Driven Architecture across the organization.",
-        "Created a FaaS platform based on Fission to streamline development processes with high efficiency and ease of use.",
-        "Developed a Service Mesh platform using Istio to provide consistent service governance across various programming languages."
+        "ArgoCD/ ArgoWorkflow",
+        "Knative / Fission",
+        "Istio / Envoy"
       ]
     },
     {
       "name": "Beijing logicreation Information & Technology Co., Ltd",
-      "location": "Beijing, CN",
-      "description": "It's a content provider that offers knowledge of different subjects.",
       "position": "Senior Software Engineer",
+      "location": "Beijing, CN",
       "url": "https://www.igetget.com",
       "startDate": "2015-06-08",
       "endDate": "2021-11-20",
+      "summary": "Cloud-native and microservices architecture expert with extensive experience in designing and implementing robust systems using Kubernetes, Tekton, and other modern technologies. Proven track record in enhancing platform stability, improving application reliability, and leading significant architectural transitions.",
       "highlights": [
-        "Developed internal microservice component controllers and CICD systems based on K8S and Tekton, enhancing platform stability and application build reliability.",
-        "Designed and developed the company’s internal API gateway, achieving a stress test performance of up to 250K QPS, successfully supporting the traffic demands of various large-scale company events.",
-        "Participated in the design and development of the company’s e-commerce system and several middleware projects, driving the transition from monolithic to microservices architecture, and completed the migration to a self-developed e-commerce platform for Luo Ji Si Wei."
+        "Kubernetes / Tekton",
+        "API Gateway / Microservices"
       ]
     }
   ],
@@ -62,16 +58,15 @@
       "endDate": "2015-06-01",
       "startDate": "2013-09-01",
       "area": "Computer Information Management (incomplete)",
-      "studyType": "Bachelors",
-      "institution": "The University of Tianjin"
+      "institution": "The University of Tianjin",
+      "studyType": "Bachelors"
     },
     {
-      "institution": "Tianjin Binhai Vocational School",
-      "url": "https://www.ou.edu/",
+      "startDate": "2012-09-01",
+      "endDate": "2015-06-01",
       "area": "Electronic Information Engineering",
       "studyType": "College",
-      "startDate": "2012-09-01",
-      "endDate": "2015-06-01"
+      "institution": "Tianjin Binhai Vocational School"
     }
   ],
   "skills": [
@@ -81,8 +76,8 @@
       "keywords": [
         "K8s / Istio / Envoy",
         "ArgoCD / FluxCD",
-        "ArgoWorkflow / Tekton ",
-        "Kubevela / OAM ",
+        "ArgoWorkflow / Tekton",
+        "Kubevela / OAM",
         "Knative / Fission",
         "OpenTelemetry / Loki"
       ]
@@ -104,15 +99,21 @@
     },
     {
       "language": "Mandarin",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Sci-Fi movies",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Iron Man",
+        "Interstellar",
+        "The Matrix",
+        "Star Trek",
+        "Avatar",
+        "The Martian",
+        "The Terminator",
+        "Three-Body"
       ]
     }
   ],
@@ -121,44 +122,40 @@
       "name": "Kiae",
       "description": "An open-source cloud platform completely based on Kubernetes and Istio. alternative to Heroku / Vercel / Railway",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "Leveraging a decade of experience, I designed a developer-friendly cloud platform tailored to meet modern needs.",
+        "Supports multi-language development, including Go, Python, Node.js, Java, and PHP.",
+        "Supports multi-cloud deployment, including AWS, GCP, Azure, and self-hosting."
       ],
       "keywords": [
-        "Golang",
-        "Self hosting",
-        "Cloud driver"
+        "Cloud platform",
+        "Application engine"
       ],
       "startDate": "2016-08-24",
-      "url": "https://kiae.dev",
+      "url": "https://github.com/kiaedev/kiae",
       "roles": [
-        "Team lead",
-        "Designer"
+        "Designer",
+        "Full Stack Developer"
       ],
-      "entity": "Smoogle",
       "type": "application"
     },
     {
       "name": "ZPan",
       "description": "A self-hosted cloud disk base on the cloud storage",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "I developed my first open-source project, which has garnered over 19k stars on GitHub.",
+        "Fast: Not limited by server bandwidth",
+        "Support all cloud storage compatible with S3 protocol"
       ],
       "keywords": [
-        "Golang",
         "Self hosting",
-        "Cloud driver"
+        "Cloud storage"
       ],
       "startDate": "2016-08-24",
       "url": "https://zpan.space",
       "roles": [
-        "Team lead",
-        "Designer"
+        "Designer",
+        "Full Stack Developer"
       ],
-      "entity": "Smoogle",
       "type": "application"
     }
   ],
