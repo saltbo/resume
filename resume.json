@@ -6,7 +6,7 @@
     "image": "",
     "email": "rdsaltbo@gmail.com",
     "phone": "(740)562-2838",
-    "summary": "Jasper is an experienced engineer specializing in the cloud-native field. With over 10 years in computer programming and the past 7 years dedicated specifically to cloud-native technologies, he possesses deep expertise in this area. Jasper is proficient with core technologies in the cloud-native domain, including Kubernetes, Istio, Argo, and Knative, among others.",
+    "summary": "Jasper is an experienced engineer with over a decade in computer programming and the past seven years focused on cloud-native. He is highly proficient in key platforms such as Kubernetes, Istio, Argo, and Knative. A dedicated contributor to several open source projects and a member of both the Istio and Kubernetes communities, Jasper is passionate about the open source movement and is committed to its collaborative spirit and innovation.",
     "location": {
       "city": "Windsor",
       "countryCode": "CA",
@@ -38,7 +38,8 @@
       "highlights": [
         "ArgoCD/ ArgoWorkflow",
         "Knative / Fission",
-        "Istio / Envoy / Coder"
+        "Istio / Envoy / Coder",
+        "IaC / GitOps / Flux"
       ]
     },
     {
