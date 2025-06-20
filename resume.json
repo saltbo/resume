@@ -59,6 +59,32 @@
       ]
     }
   ],
+  "certificates": [
+    {
+      "name": "CNCF ContribCard",
+      "date": "2024-06-07",
+      "issuer": "CNCF",
+      "url": "https://contribcard.clotributor.dev/saltbo"
+    },
+    {
+      "name": "AlgoExpert Certificate",
+      "date": "2025-05-25",
+      "issuer": "AlgoExpert",
+      "url": "https://certificate.algoexpert.io/AE-3e4a46d5d1"
+    },
+    {
+      "name": "SystemsExpert Certificate",
+      "date": "2025-06-03",
+      "issuer": "AlgoExpert",
+      "url": "https://certificate.algoexpert.io/SE-c3c05f666a"
+    },
+    {
+      "name": "InfraExpert Certificate",
+      "date": "2025-06-03",
+      "issuer": "AlgoExpert",
+      "url": "https://certificate.algoexpert.io/IE-c4ea9f7e8c"
+    }
+  ],
   "education": [
     {
       "endDate": "2015-06-01",
