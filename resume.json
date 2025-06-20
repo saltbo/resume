@@ -6,7 +6,7 @@
     "image": "",
     "email": "rdsaltbo@gmail.com",
     "phone": "(740)562-2838",
-    "summary": "Jasper is an experienced engineer specializing in the cloud-native field. With over 10 years in computer programming and the past 5 years dedicated specifically to cloud-native technologies, he possesses deep expertise in this area. Jasper is proficient with core technologies in the cloud-native domain, including Kubernetes (K8s), Istio, Argo, and Knative, among others.",
+    "summary": "Jasper is an experienced engineer specializing in the cloud-native field. With over 10 years in computer programming and the past 7 years dedicated specifically to cloud-native technologies, he possesses deep expertise in this area. Jasper is proficient with core technologies in the cloud-native domain, including Kubernetes, Istio, Argo, and Knative, among others.",
     "location": {
       "city": "Windsor",
       "countryCode": "CA",
@@ -28,28 +28,33 @@
   "work": [
     {
       "name": "Li Auto Inc.",
+      "company": "Li Auto Inc.",
       "location": "Beijing, CN",
       "position": "Senior Software Engineer",
       "url": "https://ir.lixiang.com",
+      "website": "https://ir.lixiang.com",
       "startDate": "2021-11-25",
-      "summary": "Experienced in building and optimizing cloud-native platforms to enhance efficiency, manageability, and governance across multiple clusters and services. Proficient in implementing Continuous Delivery, Function as a Service, and Service Mesh platforms.",
+      "summary": "Spearheaded the development and infrastructure of the company's internal function platform, handling over 10,000 functions with a peak QPS of 300,000. Engineered a container platform utilizing ArgoCD, which facilitated the management and operations of dozens of components across hundreds of Kubernetes clusters.",
       "highlights": [
         "ArgoCD/ ArgoWorkflow",
         "Knative / Fission",
-        "Istio / Envoy"
+        "Istio / Envoy / Coder"
       ]
     },
     {
-      "name": "Beijing logicreation Information & Technology Co., Ltd",
+      "name": "Igetget Co., Ltd",
+      "company": "Igetget Co., Ltd",
       "position": "Senior Software Engineer",
       "location": "Beijing, CN",
       "url": "https://www.igetget.com",
+      "website": "https://www.igetget.com",
       "startDate": "2015-06-08",
       "endDate": "2021-11-20",
-      "summary": "Cloud-native and microservices architecture expert with extensive experience in designing and implementing robust systems using Kubernetes, Tekton, and other modern technologies. Proven track record in enhancing platform stability, improving application reliability, and leading significant architectural transitions.",
+      "summary": "Spearheaded the design and development of a proprietary API gateway, seamlessly handling a peak of 250,000 QPS and managing thousands of millions of daily requests. Masterfully developed the data plane autonomously, showcasing expertise in proxy technology at both L4 and L7 layers.",
       "highlights": [
-        "Kubernetes / Tekton",
-        "API Gateway / Microservices"
+        "API Gateway / Microservices",
+        "Ecomerce System / B2C",
+        "Kubernetes / Tekton"
       ]
     }
   ],
@@ -86,16 +91,21 @@
       "name": "Web Development",
       "level": "Master",
       "keywords": [
-        "HTML / JSX",
-        "Javascript / Typescript",
-        "Vue / React"
+        "Golang / PHP / Python",
+        "RESTful / gRPC",
+        "Typescript / Javascript",
+        "React / Vue",
+        "MySQL / PostgreSQL",
+        "Redis / MongoDB",
+        "Kafka / RabbitMQ",
+        "Oauth2 / OIDC"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Proficient"
+      "fluency": "Fluent"
     },
     {
       "language": "Mandarin",
@@ -120,15 +130,22 @@
   "projects": [
     {
       "name": "Kiae",
-      "description": "An open-source cloud platform completely based on Kubernetes and Istio. alternative to Heroku / Vercel / Railway",
+      "description": "An open-source cloud platform completely based on Kubernetes and Istio. Alternative to Heroku / Vercel / Railway",
       "highlights": [
-        "Leveraging a decade of experience, I designed a developer-friendly cloud platform tailored to meet modern needs.",
+        "Leveraging a decade of experience, designed a developer-friendly cloud platform tailored to meet modern needs.",
         "Supports multi-language development, including Go, Python, Node.js, Java, and PHP.",
-        "Supports multi-cloud deployment, including AWS, GCP, Azure, and self-hosting."
+        "Supports multi-cloud deployment, including AWS, GCP, Azure, and self-hosting.",
+        "SSO Integration (OIDC, OAuth2, LDAP, SAML 2.0, GitHub, GitLab, Microsoft, LinkedIn)"
       ],
       "keywords": [
         "Cloud platform",
-        "Application engine"
+        "Application engine",
+        "Kubevela",
+        "Crossplane",
+        "OIDC",
+        "Kpack",
+        "GraphQL",
+        "Dex"
       ],
       "startDate": "2016-08-24",
       "url": "https://github.com/kiaedev/kiae",
@@ -140,15 +157,20 @@
     },
     {
       "name": "ZPan",
-      "description": "A self-hosted cloud disk base on the cloud storage",
+      "description": "A self-hosted cloud drive base on the cloud storage. Alternative to Google Drive / Dropbox / OneDrive",
       "highlights": [
-        "I developed my first open-source project, which has garnered over 19k stars on GitHub.",
-        "Fast: Not limited by server bandwidth",
-        "Support all cloud storage compatible with S3 protocol"
+        "Garnered over 19k stars on GitHub.",
+        "Supports high-speed uploading and downloading without limited by server bandwidth",
+        "Support all cloud storage compatible with S3 protocol",
+        "Support file & folder management and sharing",
+        "Support document preview and audio and video playback"
       ],
       "keywords": [
         "Self hosting",
-        "Cloud storage"
+        "Cloud storage",
+        "Clean Architecture",
+        "S3",
+        "OPA"
       ],
       "startDate": "2016-08-24",
       "url": "https://zpan.space",
