@@ -12,7 +12,7 @@
     "jsonresume-theme-even": "^0.26.1",
     "jsonresume-theme-macchiato": "^1.1.0",
     "jsonresume-theme-professional": "^1.1.0",
-    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "jsonresume-theme-stackoverflow": "^3.3.0",
     "jsonresume-theme-standard-resume": "^2.1.0"
   },
   "volta": {
