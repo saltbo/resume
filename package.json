@@ -1,14 +1,25 @@
 {
+  "scripts": {
+    "serve": "resume serve --theme macchiato",
+    "export": "resumed render --theme jsonresume-theme-macchiato",
+    "pdf": "npm run export && node pdf.js",
+    "build": "npm run pdf"
+  },
   "dependencies": {
     "jsonresume-theme-caffeine": "^1.2.3",
     "jsonresume-theme-cora": "^0.1.1",
     "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.26.1",
     "jsonresume-theme-macchiato": "^1.1.0",
     "jsonresume-theme-professional": "^1.1.0",
     "jsonresume-theme-stackoverflow": "^2.1.0",
     "jsonresume-theme-standard-resume": "^2.1.0"
   },
   "volta": {
-    "node": "16.20.2"
+    "node": "24.16.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.43.1",
+    "resumed": "^6.1.0"
   }
 }

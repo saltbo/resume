@@ -5,15 +5,19 @@ Here is Jasper Van's Resume → Welcome [visit](https://registry.jsonresume.org/
 ## Install
 
 ```bash
-npm install -g resume-cli
-npm install -g puppeteer-cli
+npm install
 ```
 
 ## Usage
 
-### Export
+### Develop & Serve
 
 ```bash
-resume export resume.html --theme macchiato
-puppeteer --wait-until networkidle0 --margin-top 0 --margin-right 20 --margin-bottom 0 --margin-left 20 --format A4 print resume.html resume.pdf
+npm run serve
+```
+
+### Export HTML & PDF
+
+```bash
+npm run build
 ```

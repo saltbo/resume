@@ -34,6 +34,7 @@
       "url": "https://ir.lixiang.com",
       "website": "https://ir.lixiang.com",
       "startDate": "2021-11-25",
+      "endDate": "2026-01-31",
       "summary": "Spearheaded the development and infrastructure of the company's internal function platform, handling over 10,000 functions with a peak QPS of 300,000. Engineered a container platform utilizing ArgoCD, which facilitated the management and operations of dozens of components across hundreds of Kubernetes clusters.",
       "highlights": [
         "ArgoCD/ ArgoWorkflow",
