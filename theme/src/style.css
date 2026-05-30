@@ -1,0 +1,532 @@
+/* 
+ * Premium Charcoal Monochrome Resume Style
+ * Zero backgrounds, zero cards. Low-contrast, high-end editorial monochrome design.
+ * Optimized for both web rendering and single-page A4 PDF printing.
+ */
+
+/* Base & Typography */
+html {
+  background: #fafafa;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  background: #fafafa;
+  margin: 0;
+  padding: 20px 0;
+  color: #27272a; /* Zinc 800 - crisp and extremely elegant */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Layout Page Grid */
+.page {
+  background: white;
+  width: 100%;
+  max-width: 794px; /* A4 size at 96dpi */
+  min-height: 1123px;
+  margin: 0 auto;
+  border-top: 5px solid #18181b; /* Strong anchored top line */
+  padding: 35px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+}
+
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  border-bottom: 1.5px solid #e4e4e7;
+  padding-bottom: 15px;
+  margin-bottom: 22px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+/* Headings */
+h1 {
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: -0.8px;
+  color: #09090b; /* Zinc 950 */
+  margin: 0;
+  line-height: 1.1;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 13px;
+  color: #52525b; /* Zinc 600 */
+  margin: 4px 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Column Grid Split */
+.resume-content {
+  display: block;
+}
+
+.left-column {
+  float: left;
+  width: 195px;
+  border-left: 3px solid #18181b; /* Sophisticated left vertical line */
+  padding-left: 18px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.right-column {
+  margin-left: 225px; /* 195px width + 30px margin = 225px, prevents right content shifting to left on page break */
+  overflow: hidden; /* Establish BFC to isolate clears inside the right column from outer floated left column */
+}
+
+/* Left Column Section Spacing Unification */
+.left-column > div,
+.left-column > section,
+.left-column .skills-container {
+  margin-top: 20px !important;
+}
+
+.left-column > div:first-of-type,
+.left-column > section:first-of-type,
+.left-column .skills-container:first-of-type {
+  margin-top: 0 !important;
+}
+
+.left-column .title {
+  margin: 0 0 10px 0 !important;
+}
+
+/* Section Title Components */
+.title {
+  margin: 18px 0 10px 0;
+}
+
+.right-column .container:first-of-type .title,
+.right-column .summary-container .title {
+  margin-top: 0;
+}
+
+.title h3 {
+  font-weight: 700;
+  font-size: 11px;
+  color: #09090b;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border-bottom: 1.5px solid #e4e4e7;
+  padding-bottom: 4px;
+}
+
+.left-column .title h3 {
+  color: #18181b;
+  border-bottom: 1px solid #e4e4e7;
+}
+
+.title .keyline {
+  display: none; /* Hide the legacy keyline style */
+}
+
+/* Contact Info Tag & Social lists */
+.info-tag-container {
+  margin-bottom: 8px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.info-tag-container .fa {
+  width: 14px;
+  margin-right: 8px;
+  color: #71717a;
+  text-align: center;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+.info-tag-container h6.info-text,
+.info-tag-container .info-text {
+  font-size: 11px;
+  color: #27272a;
+  margin: 0;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 1.4;
+}
+
+.info-tag-container h6.info-text a,
+.info-tag-container .info-text a {
+  color: #09090b;
+  text-decoration: none;
+  border-bottom: 1px dashed #cbd5e1;
+}
+
+.info-tag-container h6.info-text a:hover,
+.info-tag-container .info-text a:hover {
+  border-bottom: 1px solid #09090b;
+}
+
+/* Skills section in Left Column */
+.skills-container .container {
+  padding-top: 0;
+}
+
+/* Skills section in Left Column */
+.skills-container .container {
+  padding-top: 0;
+}
+
+.skills-list-title {
+  font-weight: 700;
+  font-size: 10px;
+  color: #18181b;
+  margin: 12px 0 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skill-group:first-of-type .skills-list-title {
+  margin-top: 8px; /* Alignment with Skills title */
+}
+
+.skills-list {
+  margin: 0;
+  padding-left: 12px;
+  list-style-type: square;
+}
+
+.skills-list li {
+  font-size: 10.5px;
+  color: #4b5563;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+/* Interests section in Left Column */
+.interests-container h4 {
+  font-weight: 700;
+  font-size: 10px;
+  color: #18181b;
+  margin: 12px 0 4px 0 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.interests-container .item:first-of-type h4 {
+  margin-top: 8px !important; /* Alignment with Interests title */
+}
+
+.interests-container ul {
+  margin: 0;
+  padding-left: 12px;
+  list-style-type: square;
+}
+
+.interests-container ul li {
+  font-size: 10.5px;
+  color: #4b5563;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+/* Global Left Column Item Margin Reset */
+.left-column .item {
+  margin-bottom: 0 !important;
+}
+
+/* Timeline Experience & Project Items */
+.item {
+  margin-bottom: 14px; /* Clean breathing room */
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.item-header {
+  margin-bottom: 3px;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 13px;
+  color: #09090b;
+  margin: 0;
+}
+
+.item-date {
+  font-size: 10px;
+  font-weight: 600;
+  color: #71717a;
+  letter-spacing: 0.2px;
+}
+
+.item-subtitle {
+  font-size: 11px;
+  color: #52525b;
+  margin: 2px 0 5px 0;
+}
+
+.item-subtitle strong {
+  font-weight: 600;
+  color: #18181b;
+}
+
+.item-subtitle a {
+  color: #18181b;
+  text-decoration: none;
+  border-bottom: 1px dashed #cbd5e1;
+}
+
+.item-subtitle a:hover {
+  border-bottom: 1px solid #18181b;
+}
+
+/* Text elements & Paragraph lists */
+p, li {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #3f3f46;
+}
+
+p {
+  margin: 0;
+}
+
+.summary-container p.summary {
+  font-size: 12px; /* Emphasized summary intro */
+  line-height: 1.5;
+  color: #27272a;
+  margin-bottom: 14px;
+}
+
+ul {
+  margin: 6px 0 0 0;
+  padding-left: 15px;
+}
+
+ul li {
+  margin-bottom: 4px;
+  color: #4b5563;
+}
+
+/* Print Stylesheet Overrides */
+@page {
+  size: A4;
+  margin: 0; /* Let Puppeteer handle standard page print without print agent margins */
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #27272a;
+  }
+
+  .page {
+    width: 100% !important;
+    height: 1123px !important; /* STRICTLY lock to A4 page height at 96 DPI */
+    min-height: 1123px !important;
+    max-height: 1123px !important;
+    margin: 0 !important;
+    padding: 35px !important; /* Beautiful even padding */
+    box-shadow: none !important;
+    border-top: 5px solid #18181b !important; /* Premium anchor top line */
+    box-sizing: border-box !important;
+    display: flex !important; /* Flex container vertically to stretch children perfectly */
+    flex-direction: column !important;
+  }
+
+  header {
+    border-bottom: 1.5px solid #e4e4e7 !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 18px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Core Layout wrapper stretching to fill page */
+  .resume-content {
+    display: block !important;
+    flex: 1 !important;
+    height: 0 !important; /* Forces correct vertical scaling */
+  }
+
+  /* Floated left column layout with natural flow and exact 20px spacing */
+  .left-column {
+    float: left !important;
+    width: 180px !important;
+    border-left: 2px solid #18181b !important;
+    padding-left: 14px !important;
+    display: block !important;
+    height: auto !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .right-column {
+    float: none !important;
+    margin-left: 210px !important; /* 180px width + 30px gap = 210px absolute isolation */
+    display: flex !important; /* Flex container vertically to push Education to the bottom */
+    flex-direction: column !important;
+    height: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Left Column Section Spacing Unification - Exactly 20px margins, natural layout */
+  .left-column > div,
+  .left-column > section,
+  .left-column .skills-container {
+    margin-top: 20px !important;
+  }
+
+  .left-column > div:first-of-type,
+  .left-column > section:first-of-type,
+  .left-column .skills-container:first-of-type {
+    margin-top: 0 !important;
+  }
+
+  .left-column .title {
+    margin: 0 0 10px 0 !important;
+  }
+
+  /* Headings */
+  h1 {
+    font-size: 28px !important;
+    line-height: 1.1 !important;
+  }
+
+  h2 {
+    font-size: 13px !important;
+    letter-spacing: 1.2px !important;
+    margin-top: 3px !important;
+  }
+
+  /* Section Title Spacing - Tighter to resolve "空白处过多" */
+  .title {
+    margin: 0 0 8px 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .title h3 {
+    font-size: 11px !important;
+    letter-spacing: 1px !important;
+    padding-bottom: 2px !important;
+  }
+
+  /* Right Column Block-Flow Containers with natural margins */
+  .right-column .summary-container {
+    display: block !important;
+    height: auto !important;
+    margin-bottom: 22px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .right-column .work-container {
+    display: block !important;
+    height: auto !important;
+    margin-bottom: 22px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .right-column .projects-container {
+    display: block !important;
+    height: auto !important;
+    margin-bottom: 0 !important; /* Gap handled dynamically by margin-top: auto on Education */
+    flex-shrink: 0 !important;
+  }
+
+  /* Position Education exactly at the very bottom of the page */
+  .right-column .education-container {
+    display: block !important;
+    height: auto !important;
+    margin-top: auto !important; /* Pushes Education section to absolute bottom of page */
+    margin-bottom: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Spacing inside Right Column Items - Perfectly proportioned gaps */
+  .right-column .item {
+    display: block !important;
+    margin-bottom: 12px !important; /* Resolved "Project 之间没有间距" and Work Experience items spacing */
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .right-column .item:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .item-title {
+    font-size: 13px !important;
+    line-height: 1.25 !important;
+  }
+
+  .item-subtitle {
+    font-size: 11px !important;
+    margin: 2px 0 4px 0 !important;
+  }
+
+  /* Skills & Interests inside Left Column */
+  .skills-list-title {
+    margin: 8px 0 2px 0 !important;
+    font-size: 9.5px !important;
+  }
+
+  .skills-list li {
+    font-size: 10.5px !important;
+    margin-bottom: 3.5px !important;
+    line-height: 1.4 !important;
+  }
+
+  .interests-container h4 {
+    margin: 8px 0 2px 0 !important;
+    font-size: 9.5px !important;
+  }
+
+  .interests-container ul li {
+    font-size: 10.5px !important;
+    margin-bottom: 3.5px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Slightly Larger Overall Font Sizes & Line Heights */
+  p, li {
+    font-size: 10.5px !important;
+    line-height: 1.4 !important;
+    color: #3f3f46 !important;
+  }
+
+  ul {
+    margin: 4px 0 0 0 !important;
+    padding-left: 12px !important;
+  }
+
+  ul li {
+    margin-bottom: 2px !important;
+  }
+
+  .summary-container p.summary {
+    font-size: 11.5px !important;
+    margin-bottom: 0 !important;
+    line-height: 1.4 !important;
+  }
+}

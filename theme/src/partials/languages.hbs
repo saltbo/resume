@@ -1,0 +1,12 @@
+{{#if resume.languages.length}}
+    <div class="container languages-container">
+        {{> title value="Languages"}}
+
+        {{#each resume.languages}}
+            <div class="info-tag-container">
+                <i class="fa fa-language"></i>
+                <span class="info-text">{{language}} {{#if fluency}}({{fluency}}){{/if}}</span>
+            </div>
+        {{/each}}
+    </div>
+{{/if}}

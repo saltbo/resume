@@ -221,30 +221,26 @@
       "type": "application"
     },
     {
-      "name": "Kiae",
-      "description": "An open-source, cloud-native application platform built on Kubernetes and Istio. Alternative to Heroku / Vercel / Railway.",
-      "tags": ["infra", "fullstack"],
+      "name": "FlareAuth",
+      "description": "A lightweight, modern, and highly secure cloud-native authentication and identity management service built on top of Cloudflare Workers.",
+      "tags": ["fullstack", "infra"],
       "highlights": [
-        "Leveraging a decade of experience, designed a developer-friendly cloud platform tailored to meet modern cloud-native needs.",
-        "Supports multi-language development, including Go, Python, Node.js, Java, and PHP.",
-        "Supports multi-cloud deployment, including AWS, GCP, Azure, and self-hosting.",
-        "SSO Integration (OIDC, OAuth2, LDAP, SAML 2.0, GitHub, GitLab, Microsoft, LinkedIn)"
+        "Designed and developed a serverless authentication system running on the edge, drastically reducing latency for user login and token validation.",
+        "Implemented standard authentication protocols including OAuth2 and OIDC with secure session management.",
+        "Built a clean TypeScript developer SDK for easy auth integration in modern web applications."
       ],
       "keywords": [
-        "Cloud platform",
-        "Application engine",
-        "Kubevela",
-        "Crossplane",
-        "OIDC",
-        "Kpack",
-        "GraphQL",
-        "Dex"
+        "Authentication",
+        "Cloudflare Workers",
+        "OAuth2 / OIDC",
+        "TypeScript",
+        "Edge Computing"
       ],
-      "startDate": "2020-08-24",
-      "url": "https://github.com/kiaedev/kiae",
+      "startDate": "2024-01-10",
+      "url": "https://github.com/saltbo/flareauth",
       "roles": [
-        "Designer",
-        "Core Developer"
+        "Creator",
+        "Core Maintainer"
       ],
       "type": "application"
     },
@@ -271,30 +267,6 @@
       "roles": [
         "Designer",
         "Full Stack Developer"
-      ],
-      "type": "application"
-    },
-    {
-      "name": "FlareAuth",
-      "description": "A lightweight, modern, and highly secure cloud-native authentication and identity management service built on top of Cloudflare Workers.",
-      "tags": ["fullstack", "infra"],
-      "highlights": [
-        "Designed and developed a serverless authentication system running on the edge, drastically reducing latency for user login and token validation.",
-        "Implemented standard authentication protocols including OAuth2 and OIDC with secure session management.",
-        "Built a clean TypeScript developer SDK for easy auth integration in modern web applications."
-      ],
-      "keywords": [
-        "Authentication",
-        "Cloudflare Workers",
-        "OAuth2 / OIDC",
-        "TypeScript",
-        "Edge Computing"
-      ],
-      "startDate": "2024-01-10",
-      "url": "https://github.com/saltbo/flareauth",
-      "roles": [
-        "Creator",
-        "Core Maintainer"
       ],
       "type": "application"
     }

@@ -1,0 +1,39 @@
+{{#if resume.work.length}}
+<div class="container work-container">
+    {{> title value="Work Experience"}}
+
+    {{#each resume.work}}
+        <div class="item">
+            <div class="item-header clearfix">
+                <h4 class="item-title pull-left">{{position}}</h4>
+                <span class="item-date pull-right">
+                    {{#if startDate}}
+                        {{formatDate startDate}}
+                        {{#if endDate}}
+                             - {{formatDate endDate}}
+                        {{else}}
+                             - Present
+                        {{/if}}
+                    {{/if}}
+                </span>
+            </div>
+            <div class="item-subtitle">
+                <strong>{{name}}</strong>
+                {{#if location}} &bull; {{location}}{{/if}}
+            </div>
+
+            {{#if summary}}
+            <p class="summary-text">{{summary}}</p>
+            {{/if}}
+
+            {{#if highlights.length}}
+            <ul>
+                {{#each highlights}}
+                <li>{{.}}</li>
+                {{/each}}
+            </ul>
+            {{/if}}
+        </div>
+    {{/each}}
+</div>
+{{/if}}

@@ -1,0 +1,20 @@
+{{#if resume.skills.length}}
+    <div class="skills-container">
+        {{> title value="Skills"}}
+
+        {{#each resume.skills}}
+            <section class="container skill-group">
+                {{#if name}}
+                    <div class="skills-list-title">{{name}}</div>
+                {{/if}}
+                {{#if keywords.length}}
+                    <ul class="skills-list">
+                        {{#each keywords}}
+                            <li>{{.}}</li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+            </section>
+        {{/each}}
+    </div>
+{{/if}}

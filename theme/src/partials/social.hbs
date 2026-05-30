@@ -1,0 +1,9 @@
+{{#if network}}
+    {{#if url}}
+        {{#if (eq (lowercase network) "linkedin")}}
+            {{> info-tag text=this.url url=this.url icon="fa-linkedin-square" }}
+        {{else}}
+            {{> info-tag text=this.url url=this.url icon=(concat "fa-" (lowercase network)) }}
+        {{/if}}
+    {{/if}}
+{{/if}}

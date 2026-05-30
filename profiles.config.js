@@ -8,6 +8,9 @@ module.exports = {
   // 指定主简历文件（单数据源）
   master: 'resume.json',
   
+  // 全局简历主题（指向我们本地 Fork 并进行了精美字体优化与一页纸排版微调的专属 Macchiato 主题 👑）
+  theme: './theme', 
+  
   // 岗位画像定义
   profiles: {
     // 岗位一：偏基础架构 & 平台工程 / DevOps 方向

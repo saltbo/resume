@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const THEME = 'jsonresume-theme-macchiato';
 const rootDir = path.resolve(__dirname, '..');
 
 function runCmd(cmd) {
@@ -16,11 +15,11 @@ function runCmd(cmd) {
   }
 }
 
-function buildProfile(jsonPath, outputName) {
+function buildProfile(jsonPath, outputName, themeName) {
   const htmlFile = `dist/${outputName}.html`;
   const pdfFile = `dist/${outputName}.pdf`;
 
-  console.log(`\n--- Building Profile: ${outputName} ---`);
+  console.log(`\n--- Building: ${outputName} (Theme: ${themeName}) ---`);
   
   // Ensure 'dist/' directory exists
   const distDir = path.resolve(rootDir, 'dist');
@@ -35,8 +34,17 @@ function buildProfile(jsonPath, outputName) {
   const outputHtmlPath = path.resolve(rootDir, htmlFile);
   const scriptPdfPath = path.resolve(rootDir, 'scripts', 'pdf.js');
 
+  // Resolve local theme path to an absolute file:// URL of the entry file for ESM compatibility in resumed
+  let resolvedTheme = themeName;
+  if (themeName.startsWith('.') || themeName.startsWith('/') || fs.existsSync(path.resolve(rootDir, themeName))) {
+    const absPath = path.resolve(rootDir, themeName);
+    const isDir = fs.existsSync(absPath) && fs.statSync(absPath).isDirectory();
+    const entryPath = isDir ? path.resolve(absPath, 'index.js') : absPath;
+    resolvedTheme = `file://${entryPath}`;
+  }
+
   // 1. Render JSON to HTML
-  runCmd(`${resumedCmd} render "${jsonPath}" --theme "${THEME}" --output "${outputHtmlPath}"`);
+  runCmd(`${resumedCmd} render "${jsonPath}" --theme "${resolvedTheme}" --output "${outputHtmlPath}"`);
   
   // 2. Generate PDF using puppeteer script
   runCmd(`node "${scriptPdfPath}" "${htmlFile}" "${pdfFile}"`);
@@ -50,6 +58,7 @@ function handleConfigMode(config) {
   }
 
   const masterData = JSON.parse(fs.readFileSync(masterPath, 'utf8'));
+  const themeName = config.theme || './theme';
 
   for (const [profileName, profileOpts] of Object.entries(config.profiles)) {
     const outputName = profileOpts.output || `resume-${profileName}`;
@@ -92,6 +101,9 @@ function handleConfigMode(config) {
       for (const field of arrayFields) {
         if (Array.isArray(resume[field])) {
           resume[field] = resume[field].filter(filterByTags);
+          if (field === 'projects') {
+            resume[field] = resume[field].slice(0, 2);
+          }
         }
       }
     }
@@ -100,8 +112,8 @@ function handleConfigMode(config) {
     const tempJsonPath = path.resolve(rootDir, `.temp-${profileName}.json`);
     fs.writeFileSync(tempJsonPath, JSON.stringify(resume, null, 2), 'utf8');
 
-    // Build this profile
-    buildProfile(tempJsonPath, outputName);
+    // Build this profile with our local custom theme
+    buildProfile(tempJsonPath, outputName, themeName);
 
     // Clean up temporary JSON file
     try {
@@ -117,20 +129,6 @@ function main() {
   
   if (!fs.existsSync(configPath)) {
     console.error('❌ Error: profiles.config.js is missing!');
-    console.error('Please create a profiles.config.js file in the root directory to define your resume profiles.');
-    console.error('Example:');
-    console.error(`
-module.exports = {
-  master: 'resume.json',
-  profiles: {
-    devops: {
-      output: 'resume-devops',
-      basics: { label: 'DevOps Engineer' },
-      tags: ['devops']
-    }
-  }
-};
-    `);
     process.exit(1);
   }
 
@@ -138,7 +136,7 @@ module.exports = {
   const config = require(configPath);
   handleConfigMode(config);
   
-  console.log('\n✨ All profiles built successfully!');
+  console.log('\n✨ All profiles compiled successfully into dist/!');
 }
 
 main();

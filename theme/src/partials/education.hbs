@@ -1,0 +1,27 @@
+{{#if resume.education.length}}
+<div class="container education-container">
+    {{> title value="Education"}}
+
+    {{#each resume.education}}
+        <div class="item">
+            <div class="item-header clearfix">
+                <h4 class="item-title pull-left">{{institution}}</h4>
+                <span class="item-date pull-right">
+                    {{#if startDate}}
+                        {{formatDate startDate}}
+                        {{#if endDate}}
+                             - {{formatDate endDate}}
+                        {{else}}
+                             - Present
+                        {{/if}}
+                    {{/if}}
+                </span>
+            </div>
+            <div class="item-subtitle">
+                {{studyType}} of {{area}}
+                {{#if gpa}} &bull; GPA: {{gpa}}{{/if}}
+            </div>
+        </div>
+    {{/each}}
+</div>
+{{/if}}
