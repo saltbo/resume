@@ -1,5 +1,9 @@
 node_modules
 public
+dist/
 
 resume.pdf
 resume.html
+resume-*.pdf
+resume-*.html
+.temp-*

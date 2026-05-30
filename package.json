@@ -2,8 +2,8 @@
   "scripts": {
     "serve": "resume serve --theme macchiato",
     "export": "resumed render --theme jsonresume-theme-macchiato",
-    "pdf": "npm run export && node pdf.js",
-    "build": "npm run pdf"
+    "pdf": "npm run export && node scripts/pdf.js",
+    "build": "node scripts/build-multi.js"
   },
   "dependencies": {
     "jsonresume-theme-caffeine": "^1.2.3",

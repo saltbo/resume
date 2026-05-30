@@ -6,7 +6,7 @@
     "image": "",
     "email": "rdsaltbo@gmail.com",
     "phone": "(209) 671-5330",
-    "summary": "Jasper is an experienced engineer with over a decade in computer programming and the past seven years focused on cloud-native. He is highly proficient in key platforms such as Kubernetes, Istio, Argo, and Knative. A dedicated contributor to several open source projects and a member of both the Istio and Kubernetes communities, Jasper is passionate about the open source movement and is committed to its collaborative spirit and innovation.",
+    "summary": "Jasper is an experienced engineer with over a decade in computer programming and the past seven years focused on cloud-native infrastructure, platform engineering, and AI agentic collaboration. He is highly proficient in Kubernetes, Istio, Argo, and Knative. A dedicated open-source creator and contributor, Jasper is active in both the Istio and Kubernetes communities and passionate about building agent-first developer tools and developer platforms.",
     "location": {
       "city": "Windsor",
       "countryCode": "CA",
@@ -37,7 +37,7 @@
       "endDate": "2026-01-31",
       "summary": "Spearheaded the development and infrastructure of the company's internal function platform, handling over 10,000 functions with a peak QPS of 300,000. Engineered a container platform utilizing ArgoCD, which facilitated the management and operations of dozens of components across hundreds of Kubernetes clusters.",
       "highlights": [
-        "ArgoCD/ ArgoWorkflow",
+        "ArgoCD / ArgoWorkflow",
         "Knative / Fission",
         "Istio / Envoy / Coder",
         "IaC / GitOps / Flux"
@@ -55,7 +55,7 @@
       "summary": "Spearheaded the design and development of a proprietary API gateway, seamlessly handling a peak of 250,000 QPS and managing thousands of millions of daily requests. Masterfully developed the data plane autonomously, showcasing expertise in proxy technology at both L4 and L7 layers.",
       "highlights": [
         "API Gateway / Microservices",
-        "Ecomerce System / B2C",
+        "Ecommerce System / B2C",
         "Kubernetes / Tekton"
       ]
     }
@@ -104,29 +104,42 @@
   ],
   "skills": [
     {
-      "name": "CloudNative",
-      "level": "Master",
+      "name": "Infrastructure & Platform Engineering",
+      "level": "Expert",
+      "tags": ["infra"],
       "keywords": [
-        "K8s / Istio / Envoy",
-        "ArgoCD / FluxCD",
-        "ArgoWorkflow / Tekton",
-        "Kubevela / OAM",
-        "Knative / Fission",
-        "OpenTelemetry / Loki"
+        "Kubernetes / Istio / Envoy / Coder",
+        "ArgoCD / FluxCD / GitOps",
+        "ArgoWorkflow / Tekton / CI/CD",
+        "Knative / Fission / Serverless",
+        "Infrastructure as Code (Terraform / OpenTofu)",
+        "Prometheus / OpenTelemetry / Loki"
       ]
     },
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "AI & Agentic Engineering",
+      "level": "Expert",
+      "tags": ["agentic"],
       "keywords": [
-        "Golang / PHP / Python",
-        "RESTful / gRPC",
-        "Typescript / Javascript",
-        "React / Vue",
-        "MySQL / PostgreSQL",
-        "Redis / MongoDB",
-        "Kafka / RabbitMQ",
-        "Oauth2 / OIDC"
+        "Agent-First Collaboration & Mission Control",
+        "Cryptographic AI Identity & Verification (Ed25519)",
+        "Claude Code / Copilot / Gemini API Integrations",
+        "Multi-Agent Task Decomposition & Orchestration",
+        "Self-Organizing AI Teams & Task Lifecycles",
+        "LLMs / RAG Platforms / Prompt Engineering"
+      ]
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "Expert",
+      "tags": ["fullstack"],
+      "keywords": [
+        "Golang / Python / PHP / TypeScript",
+        "React / Vue.js / Edge Compute (Cloudflare)",
+        "RESTful API / gRPC / GraphQL",
+        "PostgreSQL / MySQL / MongoDB",
+        "Redis / Kafka / RabbitMQ",
+        "OAuth2 / OIDC / Dex SSO"
       ]
     }
   ],
@@ -157,10 +170,62 @@
   ],
   "projects": [
     {
-      "name": "Kiae",
-      "description": "An open-source cloud platform completely based on Kubernetes and Istio. Alternative to Heroku / Vercel / Railway",
+      "name": "agent-kanban",
+      "description": "An agent-first task board designed to act as mission control for an AI workforce.",
+      "tags": ["agentic"],
       "highlights": [
-        "Leveraging a decade of experience, designed a developer-friendly cloud platform tailored to meet modern needs.",
+        "Designed and developed a collaborative workspace where human developers and autonomous AI coding agents (Claude Code, Gemini, etc.) seamlessly coordinate.",
+        "Implemented cryptographic identity verification (Ed25519) for AI agents to sign and track their contributions, commits, and pull requests securely.",
+        "Engineered a self-organizing task decomposition framework enabling agents to autonomously create, delegate, and manage complex engineering task lifecycles."
+      ],
+      "keywords": [
+        "AI Agents",
+        "Agentic Collaboration",
+        "Ed25519 Cryptographic Identity",
+        "Claude Code & Copilot Integration",
+        "Go",
+        "TypeScript",
+        "React"
+      ],
+      "startDate": "2024-10-15",
+      "url": "https://github.com/saltbo/agent-kanban",
+      "roles": [
+        "Creator",
+        "Core Developer"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "any-managed-agents",
+      "description": "An open-source orchestration tool and runtime designed to manage, monitor, and deploy heterogeneous AI coding agents across distributed environments.",
+      "tags": ["agentic"],
+      "highlights": [
+        "Engineered a unified runtime for launching and managing multiple AI coding agents with fully isolated execution contexts.",
+        "Implemented dynamic resource allocation and state monitoring to manage parallel agent workloads on Kubernetes.",
+        "Designed a robust API and event gateway to stream agent logs, shell execution outputs, and workspace changes in real-time."
+      ],
+      "keywords": [
+        "Managed Agents",
+        "Agent Orchestration",
+        "AI Workforce Infrastructure",
+        "Go",
+        "TypeScript",
+        "Kubernetes"
+      ],
+      "startDate": "2025-02-15",
+      "url": "https://github.com/saltbo/any-managed-agents",
+      "roles": [
+        "Creator",
+        "Core Maintainer"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Kiae",
+      "description": "An open-source, cloud-native application platform built on Kubernetes and Istio. Alternative to Heroku / Vercel / Railway.",
+      "tags": ["infra", "fullstack"],
+      "highlights": [
+        "Leveraging a decade of experience, designed a developer-friendly cloud platform tailored to meet modern cloud-native needs.",
         "Supports multi-language development, including Go, Python, Node.js, Java, and PHP.",
         "Supports multi-cloud deployment, including AWS, GCP, Azure, and self-hosting.",
         "SSO Integration (OIDC, OAuth2, LDAP, SAML 2.0, GitHub, GitLab, Microsoft, LinkedIn)"
@@ -175,23 +240,24 @@
         "GraphQL",
         "Dex"
       ],
-      "startDate": "2016-08-24",
+      "startDate": "2020-08-24",
       "url": "https://github.com/kiaedev/kiae",
       "roles": [
         "Designer",
-        "Full Stack Developer"
+        "Core Developer"
       ],
       "type": "application"
     },
     {
       "name": "ZPan",
-      "description": "A self-hosted cloud drive base on the cloud storage. Alternative to Google Drive / Dropbox / OneDrive",
+      "description": "A self-hosted cloud drive base on the cloud storage. Alternative to Google Drive / Dropbox / OneDrive.",
+      "tags": ["fullstack", "infra"],
       "highlights": [
         "Garnered over 19k stars on GitHub.",
-        "Supports high-speed uploading and downloading without limited by server bandwidth",
-        "Support all cloud storage compatible with S3 protocol",
-        "Support file & folder management and sharing",
-        "Support document preview and audio and video playback"
+        "Supports high-speed uploading and downloading without limited by server bandwidth.",
+        "Support all cloud storage compatible with S3 protocol.",
+        "Support file & folder management and sharing.",
+        "Support document preview and audio and video playback."
       ],
       "keywords": [
         "Self hosting",
@@ -201,10 +267,34 @@
         "OPA"
       ],
       "startDate": "2016-08-24",
-      "url": "https://zpan.space",
+      "url": "https://github.com/saltbo/zpan",
       "roles": [
         "Designer",
         "Full Stack Developer"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "FlareAuth",
+      "description": "A lightweight, modern, and highly secure cloud-native authentication and identity management service built on top of Cloudflare Workers.",
+      "tags": ["fullstack", "infra"],
+      "highlights": [
+        "Designed and developed a serverless authentication system running on the edge, drastically reducing latency for user login and token validation.",
+        "Implemented standard authentication protocols including OAuth2 and OIDC with secure session management.",
+        "Built a clean TypeScript developer SDK for easy auth integration in modern web applications."
+      ],
+      "keywords": [
+        "Authentication",
+        "Cloudflare Workers",
+        "OAuth2 / OIDC",
+        "TypeScript",
+        "Edge Computing"
+      ],
+      "startDate": "2024-01-10",
+      "url": "https://github.com/saltbo/flareauth",
+      "roles": [
+        "Creator",
+        "Core Maintainer"
       ],
       "type": "application"
     }
