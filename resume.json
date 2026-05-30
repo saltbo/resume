@@ -170,7 +170,7 @@
   ],
   "projects": [
     {
-      "name": "Agent Kanban",
+      "name": "AgentKanban",
       "description": "An agent-first task board designed to act as mission control for an AI workforce.",
       "tags": ["agentic"],
       "highlights": [
@@ -196,7 +196,7 @@
       "type": "application"
     },
     {
-      "name": "Any Managed Agents",
+      "name": "AnyManagedAgents",
       "description": "An open-source orchestration tool and runtime designed to manage, monitor, and deploy heterogeneous AI coding agents across distributed environments.",
       "tags": ["agentic"],
       "highlights": [
