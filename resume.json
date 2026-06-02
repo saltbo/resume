@@ -5,7 +5,7 @@
     "label": "Senior Software Engineer | Platform Engineer | AI Agentic Tools",
     "image": "",
     "email": "rdsaltbo@gmail.com",
-    "phone": "(209) 671-5330",
+    "phone": "(226) 739-0899",
     "summary": "Product-minded engineer focused on turning complex infrastructure and product ideas into usable developer-facing systems. Strongest at driving work from architecture and implementation to deployment and verification. Values shipped products, engineering quality, and tools that people can actually use.",
     "location": {
       "city": "Windsor",
@@ -98,64 +98,84 @@
   ],
   "skills": [
     {
-      "name": "Core Engineering",
+      "name": "Programming",
       "level": "Expert",
       "keywords": [
         "Go (Golang)",
         "TypeScript",
         "Python",
-        "Distributed Systems",
-        "API Design",
-        "Microservices",
-        "Cloud Native"
+        "PHP"
       ]
     },
     {
-      "name": "Infrastructure & Platform Engineering",
+      "name": "Engineering Foundations",
+      "level": "Expert",
+      "keywords": [
+        "Distributed Systems",
+        "API Design",
+        "Microservices",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Infrastructure Platforms",
       "level": "Expert",
       "tags": ["infra"],
       "keywords": [
+        "Cloud Infrastructure",
         "Platform Engineering",
-        "Developer Platform",
+        "Developer Experience",
+        "Self-Service Platforms",
         "Kubernetes",
+        "Docker",
+        "Linux",
+        "Developer Platform",
+        "Service Mesh"
+      ]
+    },
+    {
+      "name": "Infrastructure Tooling",
+      "level": "Expert",
+      "tags": ["infra"],
+      "keywords": [
+        "Bash",
         "Istio",
         "Envoy",
-        "Service Mesh",
         "Argo CD",
         "Flux",
         "GitOps",
         "Tekton",
-        "CI/CD",
         "Knative",
         "KServe",
         "Terraform",
         "Pulumi",
+        "Observability",
+        "SLI/SLO",
+        "Incident Response",
         "OpenTelemetry"
       ]
     },
     {
-      "name": "AI & Agentic Engineering",
+      "name": "Agentic Product Engineering",
       "level": "Advanced",
       "tags": ["agentic"],
       "keywords": [
         "Agentic AI",
         "AI Coding Agents",
         "Multi-Agent Collaboration",
+        "Automated Project Iteration",
         "Agent Orchestration",
+        "Runtime Runners",
+        "Worktree Dispatch",
+        "PR Review Workflow",
+        "Claude Code",
         "Agents SDK",
         "Cloudflare Sandbox",
-        "Workers AI",
-        "Durable Objects",
-        "Multi-Agent Workflows",
-        "Automated Project Iteration",
-        "Runtime Runners",
-        "PR Review Workflow",
-        "OpenAPI SDKs",
-        "Claude Code"
+        "OpenAPI-backed APIs"
       ]
     },
     {
-      "name": "Full-Stack Development",
+      "name": "Web & Backend",
       "level": "Expert",
       "tags": ["fullstack"],
       "keywords": [
@@ -166,19 +186,25 @@
         "CSS",
         "Tailwind CSS",
         "Cloudflare Workers",
-        "Cloudflare D1",
         "Hono",
-        "Drizzle ORM",
         "REST APIs",
-        "gRPC",
+        "gRPC"
+      ]
+    },
+    {
+      "name": "Data, Auth & Testing",
+      "level": "Expert",
+      "tags": ["fullstack"],
+      "keywords": [
         "PostgreSQL",
         "MySQL",
         "Redis",
         "Kafka",
+        "Cloudflare D1",
+        "Drizzle ORM",
         "Docker",
         "Vitest",
         "Playwright",
-        "CI/CD",
         "OAuth 2.0",
         "OpenID Connect"
       ]
