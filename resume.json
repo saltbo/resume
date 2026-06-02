@@ -161,6 +161,10 @@
       "keywords": [
         "React",
         "Vue.js",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
         "Cloudflare Workers",
         "Cloudflare D1",
         "Hono",
@@ -171,6 +175,10 @@
         "MySQL",
         "Redis",
         "Kafka",
+        "Docker",
+        "Vitest",
+        "Playwright",
+        "CI/CD",
         "OAuth 2.0",
         "OpenID Connect"
       ]
@@ -253,9 +261,8 @@
       "tags": ["fullstack", "infra"],
       "highlights": [
         "Ran Better Auth inside a Cloudflare Worker serving hosted auth pages, OAuth flows, OIDC discovery, admin APIs, and Management API endpoints.",
-        "Used Cloudflare D1, Drizzle, Hono, and React to provide schema-managed storage, HTTP APIs, and hosted account/admin consoles.",
-        "Built admin workflows for applications, users, connectors, security policy, organizations, roles, API resources, webhooks, and readiness checks.",
-        "Delivered an account center for profiles, sessions, MFA, passkeys, and linked accounts."
+        "Used Cloudflare D1, Drizzle, Hono, and React to provide schema-managed storage, HTTP APIs, hosted account center, and admin console.",
+        "Built workflows for applications, users, connectors, security policy, organizations, roles, API resources, webhooks, readiness checks, MFA, passkeys, and linked accounts."
       ],
       "keywords": [
         "Authentication",

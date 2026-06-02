@@ -18,7 +18,7 @@ module.exports = {
       output: 'resume-infra', // 编译生成 dist/resume-infra.html 和 dist/resume-infra.pdf
       basics: {
         label: 'Senior Infrastructure & Platform Engineer',
-        summary: 'Product-minded platform engineer focused on turning infrastructure complexity into useful developer-facing systems. Strongest at driving work from architecture through implementation, deployment, and verification, with experience building large-scale internal platforms for function compute, service governance, application delivery, and API traffic.'
+        summary: 'Product-minded platform engineer with 10+ years of experience turning infrastructure complexity into useful developer-facing systems. Strongest at driving work from architecture through implementation, deployment, and verification, with experience building large-scale internal platforms and developer-facing infrastructure.'
       },
       // 仅保留包含 'infra' 标签的项目和专业技能
       tags: ['infra']
@@ -29,7 +29,7 @@ module.exports = {
       output: 'resume-ai', // 编译生成 dist/resume-ai.html 和 dist/resume-ai.pdf
       basics: {
         label: 'Senior Platform Engineer, AI Agentic Tools',
-        summary: 'Product-minded platform engineer applying agentic systems to practical software development workflows. Strongest fit is building multi-agent collaboration tools that help AI coding agents plan, execute, review, and ship project iterations while keeping human product direction visible.'
+        summary: 'Product-minded platform engineer with 10+ years of experience building systems that turn complex engineering work into usable products. Strongest fit is building multi-agent collaboration tools that help AI coding agents plan, execute, review, and ship project iterations while keeping human product direction visible.'
       },
       // 仅保留包含 'agentic' 标签的项目和专业技能
       tags: ['agentic']
@@ -40,7 +40,7 @@ module.exports = {
       output: 'resume-fullstack', // 编译生成 dist/resume-fullstack.html 和 dist/resume-fullstack.pdf
       basics: {
         label: 'Senior Full-Stack Engineer',
-        summary: 'Product-minded full-stack engineer able to own product-facing systems end to end. Strongest at connecting product intent, backend architecture, operational constraints, and usable web interfaces into complete working products, including high-throughput services, internal platforms, auth/admin tooling, and open-source developer products.'
+        summary: 'Product-minded full-stack engineer with 10+ years of experience owning product-facing systems end to end. Strongest at connecting product intent, backend architecture, operational constraints, and usable web interfaces into complete working products, including high-throughput services, internal platforms, auth/admin tooling, and open-source developer products.'
       },
       // 仅保留包含 'fullstack' 标签的项目和专业技能
       tags: ['fullstack']
