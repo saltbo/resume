@@ -18,7 +18,7 @@ module.exports = {
       output: 'resume-infra', // 编译生成 dist/resume-infra.html 和 dist/resume-infra.pdf
       basics: {
         label: 'Senior Infrastructure & Platform Engineer',
-        summary: 'Jasper is an experienced software engineer with over a decade in computer programming and the past seven years focused on cloud-native infrastructure and platform engineering. Highly proficient in designing and maintaining large-scale developer platforms, container ecosystems, and GitOps workflows using Kubernetes, Istio, ArgoCD, Knative, and serverless frameworks.'
+        summary: 'Product-minded platform engineer focused on turning infrastructure complexity into useful developer-facing systems. Strongest at driving work from architecture through implementation, deployment, and verification, with experience building large-scale internal platforms for function compute, service governance, application delivery, and API traffic.'
       },
       // 仅保留包含 'infra' 标签的项目和专业技能
       tags: ['infra']
@@ -28,8 +28,8 @@ module.exports = {
     ai: {
       output: 'resume-ai', // 编译生成 dist/resume-ai.html 和 dist/resume-ai.pdf
       basics: {
-        label: 'Senior AI Agentic Engineer',
-        summary: 'Jasper is a seasoned software engineer and AI Agentic Engineer with over a decade of computer programming experience. Highly proficient in architecting and implementing autonomous AI agent workflows, multi-agent cooperative systems, semantic retrievers, RAG pipelines, and sandboxed tool-execution environments using LLMs, LangGraph, LlamaIndex, and vector databases.'
+        label: 'Senior Platform Engineer, AI Agentic Tools',
+        summary: 'Product-minded platform engineer applying agentic systems to practical software development workflows. Strongest fit is building multi-agent collaboration tools that help AI coding agents plan, execute, review, and ship project iterations while keeping human product direction visible.'
       },
       // 仅保留包含 'agentic' 标签的项目和专业技能
       tags: ['agentic']
@@ -40,7 +40,7 @@ module.exports = {
       output: 'resume-fullstack', // 编译生成 dist/resume-fullstack.html 和 dist/resume-fullstack.pdf
       basics: {
         label: 'Senior Full-Stack Engineer',
-        summary: 'Jasper is an experienced senior full-stack engineer with over a decade in software development. Expert in building robust end-to-end applications, combining high-performance Go/Python microservices and custom API gateways with rich, modern frontend web user interfaces (React/TypeScript). Highly skilled in developer platform design and cloud-native application deployments.'
+        summary: 'Product-minded full-stack engineer able to own product-facing systems end to end. Strongest at connecting product intent, backend architecture, operational constraints, and usable web interfaces into complete working products, including high-throughput services, internal platforms, auth/admin tooling, and open-source developer products.'
       },
       // 仅保留包含 'fullstack' 标签的项目和专业技能
       tags: ['fullstack']

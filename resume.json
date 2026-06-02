@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jasper Van",
-    "label": "Senior Software Engineer",
+    "label": "Senior Software Engineer | Platform Engineer | AI Agentic Tools",
     "image": "",
     "email": "rdsaltbo@gmail.com",
     "phone": "(209) 671-5330",
-    "summary": "Jasper is an experienced engineer with over a decade in computer programming and the past seven years focused on cloud-native infrastructure, platform engineering, and AI agentic collaboration. He is highly proficient in Kubernetes, Istio, Argo, and Knative. A dedicated open-source creator and contributor, Jasper is active in both the Istio and Kubernetes communities and passionate about building agent-first developer tools and developer platforms.",
+    "summary": "Product-minded engineer focused on turning complex infrastructure and product ideas into usable developer-facing systems. Strongest at driving work from architecture and implementation to deployment and verification. Values shipped products, engineering quality, and tools that people can actually use.",
     "location": {
       "city": "Windsor",
       "countryCode": "CA",
@@ -35,12 +35,12 @@
       "website": "https://ir.lixiang.com",
       "startDate": "2021-11-25",
       "endDate": "2026-01-31",
-      "summary": "Spearheaded the development and infrastructure of the company's internal function platform, handling over 10,000 functions with a peak QPS of 300,000. Engineered a container platform utilizing ArgoCD, which facilitated the management and operations of dozens of components across hundreds of Kubernetes clusters.",
+      "summary": "Led cloud-native platform engineering for internal developer platforms, including function compute, event-driven architecture, service mesh, and Kubernetes delivery. Built a function platform supporting 10,000+ functions and peak traffic around 300,000 QPS, with GitOps operations across hundreds of Kubernetes clusters.",
       "highlights": [
-        "ArgoCD / ArgoWorkflow",
-        "Knative / Fission",
-        "Istio / Envoy / Coder",
-        "IaC / GitOps / Flux"
+        "Built FaaS and event-driven platform capabilities with Knative and Fission",
+        "Developed service mesh and service governance capabilities based on Istio, Envoy, and Go SDKs",
+        "Implemented CI/CD and GitOps workflows with Argo CD, Flux, Terraform, Pulumi, and infrastructure-as-code practices",
+        "Standardized platform components for Kubernetes cluster operations, observability, and service delivery"
       ]
     },
     {
@@ -52,11 +52,12 @@
       "website": "https://www.igetget.com",
       "startDate": "2015-06-08",
       "endDate": "2021-11-20",
-      "summary": "Spearheaded the design and development of a proprietary API gateway, seamlessly handling a peak of 250,000 QPS and managing thousands of millions of daily requests. Masterfully developed the data plane autonomously, showcasing expertise in proxy technology at both L4 and L7 layers.",
+      "summary": "Designed internal platform systems for API gateway, microservices, Kubernetes delivery, CI/CD, profiling, async jobs, and ecommerce services. Owned the core data plane of a proprietary API gateway that reached 250,000 QPS in load testing and supported major live events.",
       "highlights": [
-        "API Gateway / Microservices",
-        "Ecommerce System / B2C",
-        "Kubernetes / Tekton"
+        "Built API gateway routing, middleware, plugin, reverse proxy, and load-balancing capabilities",
+        "Developed Kubernetes operators and application delivery abstractions for microservices",
+        "Replaced Jenkins-based delivery flows with a Tekton-based CI/CD platform",
+        "Supported the migration from monolithic applications to microservices and containerized delivery"
       ]
     }
   ],
@@ -88,13 +89,6 @@
   ],
   "education": [
     {
-      "endDate": "2015-06-01",
-      "startDate": "2013-09-01",
-      "area": "Computer Information Management (incomplete)",
-      "institution": "The University of Tianjin",
-      "studyType": "Bachelors"
-    },
-    {
       "startDate": "2012-09-01",
       "endDate": "2015-06-01",
       "area": "Electronic Information Engineering",
@@ -104,29 +98,60 @@
   ],
   "skills": [
     {
+      "name": "Core Engineering",
+      "level": "Expert",
+      "keywords": [
+        "Go (Golang)",
+        "TypeScript",
+        "Python",
+        "Distributed Systems",
+        "API Design",
+        "Microservices",
+        "Cloud Native"
+      ]
+    },
+    {
       "name": "Infrastructure & Platform Engineering",
       "level": "Expert",
       "tags": ["infra"],
       "keywords": [
-        "Kubernetes / Istio / Envoy / Coder",
-        "ArgoCD / FluxCD / GitOps",
-        "ArgoWorkflow / Tekton / CI/CD",
-        "Knative / Fission / Serverless",
-        "Infrastructure as Code (Terraform / OpenTofu)",
-        "Prometheus / OpenTelemetry / Loki"
+        "Platform Engineering",
+        "Developer Platform",
+        "Kubernetes",
+        "Istio",
+        "Envoy",
+        "Service Mesh",
+        "Argo CD",
+        "Flux",
+        "GitOps",
+        "Tekton",
+        "CI/CD",
+        "Knative",
+        "KServe",
+        "Terraform",
+        "Pulumi",
+        "OpenTelemetry"
       ]
     },
     {
       "name": "AI & Agentic Engineering",
-      "level": "Expert",
+      "level": "Advanced",
       "tags": ["agentic"],
       "keywords": [
-        "Agent-First Collaboration & Mission Control",
-        "Cryptographic AI Identity & Verification (Ed25519)",
-        "Claude Code / Copilot / Gemini API Integrations",
-        "Multi-Agent Task Decomposition & Orchestration",
-        "Self-Organizing AI Teams & Task Lifecycles",
-        "LLMs / RAG Platforms / Prompt Engineering"
+        "Agentic AI",
+        "AI Coding Agents",
+        "Multi-Agent Collaboration",
+        "Agent Orchestration",
+        "Agents SDK",
+        "Cloudflare Sandbox",
+        "Workers AI",
+        "Durable Objects",
+        "Multi-Agent Workflows",
+        "Automated Project Iteration",
+        "Runtime Runners",
+        "PR Review Workflow",
+        "OpenAPI SDKs",
+        "Claude Code"
       ]
     },
     {
@@ -134,12 +159,20 @@
       "level": "Expert",
       "tags": ["fullstack"],
       "keywords": [
-        "Golang / Python / PHP / TypeScript",
-        "React / Vue.js / Edge Compute (Cloudflare)",
-        "RESTful API / gRPC / GraphQL",
-        "PostgreSQL / MySQL / MongoDB",
-        "Redis / Kafka / RabbitMQ",
-        "OAuth2 / OIDC / Dex SSO"
+        "React",
+        "Vue.js",
+        "Cloudflare Workers",
+        "Cloudflare D1",
+        "Hono",
+        "Drizzle ORM",
+        "REST APIs",
+        "gRPC",
+        "PostgreSQL",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "OAuth 2.0",
+        "OpenID Connect"
       ]
     }
   ],
@@ -153,41 +186,29 @@
       "fluency": "Native"
     }
   ],
-  "interests": [
-    {
-      "name": "Sci-Fi movies",
-      "keywords": [
-        "Iron Man",
-        "Interstellar",
-        "The Matrix",
-        "Star Trek",
-        "Avatar",
-        "The Martian",
-        "The Terminator",
-        "Three-Body"
-      ]
-    }
-  ],
+  "interests": [],
   "projects": [
     {
       "name": "AgentKanban",
-      "description": "An agent-first task board designed to act as mission control for an AI workforce.",
+      "description": "A multi-agent collaboration platform for helping AI coding agents plan, execute, review, and ship project iterations.",
       "tags": ["agentic"],
       "highlights": [
-        "Designed and developed a collaborative workspace where human developers and autonomous AI coding agents (Claude Code, Gemini, etc.) seamlessly coordinate.",
-        "Implemented cryptographic identity verification (Ed25519) for AI agents to sign and track their contributions, commits, and pull requests securely.",
-        "Engineered a self-organizing task decomposition framework enabling agents to autonomously create, delegate, and manage complex engineering task lifecycles."
+        "Designed an agent-first board where humans set product direction and leader agents decompose goals into coordinated worker-agent execution.",
+        "Built the ak CLI and daemon workflow to dispatch worker agents into separate worktrees, track progress, and connect work back to pull requests.",
+        "Created a visible project-iteration loop where agents can plan, delegate, implement, review, merge, and move work toward completion."
       ],
       "keywords": [
         "AI Agents",
-        "Agentic Collaboration",
-        "Ed25519 Cryptographic Identity",
+        "Multi-Agent Collaboration",
+        "Agentic Project Management",
+        "Automated Project Iteration",
+        "Agent Workforce",
         "Claude Code & Copilot Integration",
-        "Go",
         "TypeScript",
-        "React"
+        "React",
+        "CLI"
       ],
-      "startDate": "2024-10-15",
+      "startDate": "2026-03-20",
       "url": "https://github.com/saltbo/agent-kanban",
       "roles": [
         "Creator",
@@ -197,22 +218,28 @@
     },
     {
       "name": "AnyManagedAgents",
-      "description": "An open-source orchestration tool and runtime designed to manage, monitor, and deploy heterogeneous AI coding agents across distributed environments.",
+      "description": "A self-hostable Cloudflare control plane for multi-model managed agents and sandboxed agent sessions.",
       "tags": ["agentic"],
       "highlights": [
-        "Engineered a unified runtime for launching and managing multiple AI coding agents with fully isolated execution contexts.",
-        "Implemented dynamic resource allocation and state monitoring to manage parallel agent workloads on Kubernetes.",
-        "Designed a robust API and event gateway to stream agent logs, shell execution outputs, and workspace changes in real-time."
+        "Designed OpenAPI-backed control-plane APIs for agents, environments, sessions, providers, events, usage, and audit metadata.",
+        "Built the Cloudflare foundation with Workers, D1, Durable Objects, OIDC tenancy, React console, and documented deployment flows.",
+        "Defined an execution-plane model using Cloudflare Sandbox for cloud sessions and registered runners for self-hosted sessions."
       ],
       "keywords": [
         "Managed Agents",
         "Agent Orchestration",
-        "AI Workforce Infrastructure",
-        "Go",
+        "Agents SDK",
+        "Cloudflare Workers",
+        "Cloudflare D1",
+        "Durable Objects",
+        "Cloudflare Sandbox",
+        "Workers AI",
+        "OpenAPI",
+        "Runtime Runners",
         "TypeScript",
-        "Kubernetes"
+        "Go"
       ],
-      "startDate": "2025-02-15",
+      "startDate": "2026-05-22",
       "url": "https://github.com/saltbo/any-managed-agents",
       "roles": [
         "Creator",
@@ -222,21 +249,24 @@
     },
     {
       "name": "FlareAuth",
-      "description": "A lightweight, modern, and highly secure cloud-native authentication and identity management service built on top of Cloudflare Workers.",
+      "description": "Deployable identity infrastructure for hosted sign-in, account management, administration, and standard OIDC.",
       "tags": ["fullstack", "infra"],
       "highlights": [
-        "Designed and developed a serverless authentication system running on the edge, drastically reducing latency for user login and token validation.",
-        "Implemented standard authentication protocols including OAuth2 and OIDC with secure session management.",
-        "Built a clean TypeScript developer SDK for easy auth integration in modern web applications."
+        "Ran Better Auth inside a Cloudflare Worker serving hosted auth pages, OAuth flows, OIDC discovery, admin APIs, and Management API endpoints.",
+        "Used Cloudflare D1, Drizzle, Hono, and React to provide schema-managed storage, HTTP APIs, and hosted account/admin consoles.",
+        "Built admin workflows for applications, users, connectors, security policy, organizations, roles, API resources, webhooks, and readiness checks.",
+        "Delivered an account center for profiles, sessions, MFA, passkeys, and linked accounts."
       ],
       "keywords": [
         "Authentication",
         "Cloudflare Workers",
-        "OAuth2 / OIDC",
+        "OAuth 2.0",
+        "OpenID Connect",
+        "Management API",
         "TypeScript",
-        "Edge Computing"
+        "Cloudflare D1"
       ],
-      "startDate": "2024-01-10",
+      "startDate": "2026-05-18",
       "url": "https://github.com/saltbo/flareauth",
       "roles": [
         "Creator",
@@ -245,24 +275,51 @@
       "type": "application"
     },
     {
-      "name": "ZPan",
-      "description": "A self-hosted cloud drive base on the cloud storage. Alternative to Google Drive / Dropbox / OneDrive.",
-      "tags": ["fullstack", "infra"],
+      "name": "Kiae",
+      "description": "An open-source cloud-native application platform built on Kubernetes and Istio for developer-friendly application delivery.",
+      "tags": ["infra"],
       "highlights": [
-        "Garnered over 19k stars on GitHub.",
-        "Supports high-speed uploading and downloading without limited by server bandwidth.",
-        "Support all cloud storage compatible with S3 protocol.",
-        "Support file & folder management and sharing.",
-        "Support document preview and audio and video playback."
+        "Built a Heroku/Vercel-style developer platform on Kubernetes with Git-based application delivery and automated image builds.",
+        "Integrated Istio routing, entrypoints, access control, and multi-environment deployment workflows for cloud-native applications.",
+        "Supported multi-language application deployment, multi-cluster operations, and observability with OpenTelemetry."
+      ],
+      "keywords": [
+        "Kubernetes",
+        "Istio",
+        "Developer Platform",
+        "Application Platform",
+        "GitOps",
+        "OpenTelemetry",
+        "Helm",
+        "Cloud Native"
+      ],
+      "startDate": "2021-01-17",
+      "url": "https://github.com/kiaedev/kiae",
+      "roles": [
+        "Creator",
+        "Core Maintainer"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "ZPan",
+      "description": "An open-source S3-native file hosting platform for image hosting, file sharing, and backup.",
+      "tags": ["fullstack"],
+      "highlights": [
+        "Reached 2k+ GitHub stars and supported S3-compatible storage with direct client-to-S3 uploads that bypass server bandwidth.",
+        "Supported Cloudflare Workers and Docker deployments for low-ops or self-hosted file hosting.",
+        "Built workflows for PicGo, ShareX, API uploads, share links, and CLI-based directory backup.",
+        "Added Pro flows for white-label deployments, signed entitlements, quota packages, and metered traffic."
       ],
       "keywords": [
         "Self hosting",
-        "Cloud storage",
-        "Clean Architecture",
-        "S3",
-        "OPA"
+        "S3-compatible Storage",
+        "Cloudflare Workers",
+        "Docker",
+        "File Sharing",
+        "Object Storage"
       ],
-      "startDate": "2016-08-24",
+      "startDate": "2019-09-28",
       "url": "https://github.com/saltbo/zpan",
       "roles": [
         "Designer",
@@ -274,6 +331,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2026-06-02T00:00:00"
   }
 }
