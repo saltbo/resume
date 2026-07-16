@@ -2,26 +2,31 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jasper Van",
-    "label": "Senior Software Engineer | Platform Engineer | AI Agentic Tools",
+    "label": "Senior Software Engineer | Platform Engineer | Agentic Engineering",
     "image": "",
     "email": "rdsaltbo@gmail.com",
     "phone": "(226) 739-0899",
     "summary": "Product-minded engineer focused on turning complex infrastructure and product ideas into usable developer-facing systems. Strongest at driving work from architecture and implementation to deployment and verification. Values shipped products, engineering quality, and tools that people can actually use.",
     "location": {
-      "city": "Windsor",
+      "city": "Toronto",
       "countryCode": "CA",
       "region": "ON"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "rdsaltbo",
-        "url": "https://twitter.com/rdsaltbo"
+        "network": "LinkedIn",
+        "username": "saltbo",
+        "url": "https://linkedin.com/in/saltbo"
       },
       {
         "network": "Github",
         "username": "saltbo",
         "url": "https://github.com/saltbo"
+      },
+      {
+        "network": "Twitter",
+        "username": "rdsaltbo",
+        "url": "https://twitter.com/rdsaltbo"
       }
     ]
   },
